@@ -53,7 +53,7 @@ export default function LoginPage() {
                 </button>
 
                 <p className="text-center text-sm mt-4">
-                    Don't have an account?{" "}
+                    Don&apos;t have an account?
                     <a href="/signup" className="text-blue-600 hover:underline cursor-pointer">
                         Sign up
                     </a>
@@ -62,3 +62,6 @@ export default function LoginPage() {
         </div>
     );
 }
+
+
+

@@ -42,10 +42,10 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-2 sm:p-4 md:p-8 bg-gray-300 text-black">
-      <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-gray-900 text-center">🤖 AI Chat Bot</h1>
+      <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 md:mb-6 mt-4 md:mt-6 text-gray-900 text-center">🤖 AI Chat Bot</h1>
 
       {/* Chat container */}
-      <div className="w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gray-800 rounded-2xl p-2 sm:p-4 shadow-lg flex flex-col h-[70vh] min-h-[400px]">
+      <div className="w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gray-800 rounded-2xl p-2 sm:p-4 shadow-lg flex flex-col h-[70vh] min-h-[400px] mb-4 sm:mb-6">
         {/* Scrollable chat messages */}
         <div
           className="flex-1 overflow-y-auto border border-gray-700 rounded-lg mb-2 sm:mb-4 p-2 sm:p-3 space-y-2 sm:space-y-3 scroll-smooth"
@@ -55,8 +55,8 @@ export default function Home() {
             <div
               key={i}
               className={`p-2 sm:p-3 rounded-lg whitespace-pre-wrap break-words ${msg.role === "user"
-                  ? "bg-gray-900 text-white self-end ml-auto max-w-[95%] sm:max-w-[90%] md:max-w-[80%]"
-                  : "bg-gray-700 text-gray-100 self-start mr-auto max-w-[95%] sm:max-w-[90%] md:max-w-[80%]"
+                ? "bg-gray-900 text-white self-end ml-auto max-w-[95%] sm:max-w-[90%] md:max-w-[80%]"
+                : "bg-gray-700 text-gray-100 self-start mr-auto max-w-[95%] sm:max-w-[90%] md:max-w-[80%]"
                 }`}
             >
               {msg.content}
