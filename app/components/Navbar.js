@@ -49,11 +49,11 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <div className="hidden sm:flex items-center gap-3">
+        <div className="hidden sm:flex items-center gap-5">
           <Link href="/signup">
             <button
               type="button"
-              className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:from-purple-500 hover:to-blue-400 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 border border-black shadow-md transition-all"
+              className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:from-purple-500 hover:to-blue-400 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 border border-black shadow-md transition-all cursor-pointer"
             >
               Sign Up
             </button>
@@ -61,7 +61,7 @@ export default function Navbar() {
           <Link href="/login">
             <button
               type="button"
-              className="text-white bg-gradient-to-br from-blue-600 to-purple-500 hover:from-blue-500 hover:to-purple-400 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 border border-black shadow-md transition-all"
+              className="text-white bg-gradient-to-br from-blue-600 to-purple-500 hover:from-blue-500 hover:to-purple-400 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 border border-black shadow-md transition-all cursor-pointer"
             >
               Login
             </button>

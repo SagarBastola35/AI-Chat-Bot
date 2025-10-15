@@ -84,8 +84,8 @@ export default function SignupPage() {
                     type="submit"
                     disabled={loading}
                     className={`w-full mt-6 py-3 rounded-lg text-white font-semibold transition-all ${loading
-                            ? "bg-blue-400 cursor-not-allowed"
-                            : "bg-blue-600 hover:bg-blue-700"
+                            ? "bg-blue-400 cursor-not-allowed opacity-70"
+                            : "bg-blue-600 hover:bg-blue-700 cursor-pointer focus:ring-4 focus:ring-blue-300"
                         }`}
                 >
                     {loading ? "Signing up..." : "Sign Up"}

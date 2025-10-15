@@ -139,7 +139,7 @@ export default function Home() {
           <button
             type="submit"
             disabled={loading}
-            className="bg-gradient-to-br from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg px-5 py-2 text-white transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-gradient-to-br from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg px-5 py-2 text-white transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
           >
             {loading ? "..." : "Send"}
           </button>

@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         className="bg-gray-100 text-gray-900"
       >
         <Navbar />
-        <main className="">{children}</main>
+        {children}
         <SpeedInsights /> {/* ✅ This activates Vercel Speed Insights */}
         <Footer />
       </body>
