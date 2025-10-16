@@ -64,7 +64,7 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-6 text-center text-gray-900"
       >
-        🤖 Smart AI Chat Bot
+        🤖 Your Personal AI Assistant
       </motion.h1>
 
       {/* Chat Container */}
