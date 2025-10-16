@@ -1,1 +1,1 @@
-Project URL:- https://ai-chat-bot-p4ks.vercel.app/
+Project URL:- https://ai-chat-bot-azure.vercel.app/
