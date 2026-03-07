@@ -4,7 +4,7 @@ export const runtime = "nodejs"; // ✅ Ensure bcrypt & mongoose work correctly 
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import User from "@/models/User";
+import User from "@/models/User.js";
 import { connectDB } from "@/app/lib/mongodb.js";
 
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -72,6 +72,7 @@ export async function POST(req) {
         name: user.name,
         email: user.email,
       },
+
     });
 
     // ✅ Set secure, HTTP-only cookie for JWT

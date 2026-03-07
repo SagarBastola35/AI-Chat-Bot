@@ -1,4 +1,3 @@
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -22,11 +21,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className="bg-gray-100 text-gray-900"
-      >
+      <body className="bg-gray-100 text-gray-900">
         <Navbar />
-        {children}
+        <main className="pt-10 pb-10">{children}</main>
         <SpeedInsights /> {/* ✅ This activates Vercel Speed Insights */}
         <Footer />
       </body>

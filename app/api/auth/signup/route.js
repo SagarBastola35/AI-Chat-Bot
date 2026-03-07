@@ -3,7 +3,7 @@ export const runtime = "nodejs"; // ✅ Required for bcrypt & mongoose compatibi
 
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
-import User from "@/models/User";
+import User from "@/models/User.js";
 import { connectDB } from "@/app/lib/mongodb.js";
 
 /**
